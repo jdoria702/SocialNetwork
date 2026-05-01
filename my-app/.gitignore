@@ -1,0 +1,76 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js / build outputs
+.next/
+out/
+build/
+dist/
+.next/cache/
+
+# Vercel / deployment
+.vercel/
+.vercel/output/
+
+# Environment & secrets
+.env
+.env.*.local
+.env.local
+.env.test
+prisma/.env
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.code-workspace
+
+# Coverage / test cache
+coverage/
+jest-cache/
+.vitest/
+
+# Caches & temp
+.cache/
+.tmp/
+temp/
+*.tmp
+*.temp
+
+# Package manager artifacts
+.pnp/
+.pnp.js
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state
+
+# Prisma & DB artifacts
+node_modules/.prisma/
+*.db
+*.sqlite
+prisma/dev.db
+
+# Uploads / user-generated files
+uploads/
+public/uploads/
+
+# Misc
+*.tgz
+*.log.*
+.DS_Store
